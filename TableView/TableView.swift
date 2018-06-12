@@ -8,6 +8,9 @@
 
 import UIKit
 
+import Alamofire
+
+
 class TableView: UIViewController {
 
     // MARK:- IBOutlets
