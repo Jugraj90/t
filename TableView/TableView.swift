@@ -64,6 +64,7 @@ class TableView: UIViewController {
         return games.count
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! cell
@@ -72,9 +73,9 @@ class TableView: UIViewController {
 
         return cell
     }
-    
+    // For Cell Height
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100
+        return 120
     }
 
 }
