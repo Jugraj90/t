@@ -56,9 +56,11 @@ class TableView: UIViewController {
 }
 
    //MARK:- Extension Table View
+//MARK:- Extension Table View
+
   extension TableView: UITableViewDelegate, UITableViewDataSource {
 
-   
+   // data source method
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return games.count
